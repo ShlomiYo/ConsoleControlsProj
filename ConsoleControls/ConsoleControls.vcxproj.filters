@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EventEngine.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SingleBorderDrawer.cpp">
+      <Filter>Borders\BorderDrawers</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBorderDrawer.cpp">
+      <Filter>Borders\BorderDrawers</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Controls\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Controls\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Controls\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Controls\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericBox.cpp">
+      <Filter>Controls\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboBox.cpp">
+      <Filter>Controls\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckList.cpp">
+      <Filter>Controls\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioList.cpp">
+      <Filter>Controls\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBoxPanel.cpp">
+      <Filter>Controls\Complex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="EventEngine.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleBorderFactory.h">
+      <Filter>Borders</Filter>
+    </ClInclude>
+    <ClInclude Include="BorderDrawer.h">
+      <Filter>Borders\BorderDrawers</Filter>
+    </ClInclude>
+    <ClInclude Include="NullBorderDrawer.h">
+      <Filter>Borders\BorderDrawers</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleBorderDrawer.h">
+      <Filter>Borders\BorderDrawers</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBorderDrawer.h">
+      <Filter>Borders\BorderDrawers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Controls\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Controls\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Controls\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Controls\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="NumericBox.h">
+      <Filter>Controls\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboBox.h">
+      <Filter>Controls\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckList.h">
+      <Filter>Controls\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioList.h">
+      <Filter>Controls\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBoxPanel.h">
+      <Filter>Controls\Complex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{0afd58c1-5f3b-45e2-8e55-5d28e0094b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{f8817892-65dd-4f09-a86f-a41a9e7beb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Borders">
+      <UniqueIdentifier>{7ae06f14-e5cb-48ee-9709-e66a7ae924b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Borders\BorderDrawers">
+      <UniqueIdentifier>{56d4c1a1-9d5d-4a01-97e0-560a5d73ad6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Basic">
+      <UniqueIdentifier>{d1ee13e6-c6ea-42b9-b391-bc702adac364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Complex">
+      <UniqueIdentifier>{a782c72d-4c19-4a26-9201-b4bb16487c1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ConsoleControls.rc" />
+  </ItemGroup>
+</Project>
